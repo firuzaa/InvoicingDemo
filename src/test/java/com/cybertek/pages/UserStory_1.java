@@ -37,12 +37,6 @@ public class UserStory_1 {
     }
 
 
-    public String verifyStatus(int row) {
 
-        String xpth = "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody/tr[" + row + "]/td[10]";
-
-
-        return xpth;
-    }
 
 }
