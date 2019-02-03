@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="575a1414-231d-4bea-9ca5-1501baf1fa58" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/UserStory_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/UserStory_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/UserStory_1_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/UserStory_1_Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/UserStory_1_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+            <state relative-caret-position="220">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -277,7 +275,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549159486061" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549159544008" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -476,16 +474,24 @@
       <option name="project" value="LOCAL" />
       <updated>1549158670288</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added first user story 2nd @Test -2">
+      <created>1549159448775</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1549159448775</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added first user story 2nd @Test -2">
+      <created>1549159522061</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1549159522061</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserStory_1_Test_openOption - 2019.02.02 at 18h 47m 05s.xml">
-      <configuration name="UserStory_1_Test.openOption" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="UserStory_1_Test_openOption - 2019.02.02 at 18h 54m 36s.xml">
-      <configuration name="UserStory_1_Test.openOption" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="UserStory_1_Test_openOption - 2019.02.02 at 20h 34m 04s.xml">
       <configuration name="UserStory_1_Test.openOption" configurationId="TestNG" />
     </history-entry>
@@ -510,10 +516,15 @@
     <history-entry file="UserStory_1_Test_openOption - 2019.02.02 at 21h 01m 25s.xml">
       <configuration name="UserStory_1_Test.openOption" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="UserStory_1_Test_openOption - 2019.02.02 at 21h 02m 28s.xml">
+      <configuration name="UserStory_1_Test.openOption" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="UserStory_1_Test_openOption - 2019.02.02 at 21h 03m 14s.xml">
+      <configuration name="UserStory_1_Test.openOption" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24313408" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -573,7 +584,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added first user story" />
     <MESSAGE value="added first user story 2nd @Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="added first user story 2nd @Test" />
+    <MESSAGE value="added first user story 2nd @Test -2" />
+    <option name="LAST_COMMIT_MESSAGE" value="added first user story 2nd @Test -2" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -796,8 +808,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/UserStory_1_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+        <state relative-caret-position="220">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
