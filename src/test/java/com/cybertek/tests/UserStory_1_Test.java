@@ -53,4 +53,29 @@ public class UserStory_1_Test extends TestBase {
 
 
     }
+
+    @Test
+    public void verifyDraftOption() {
+
+        userStory_1 = new UserStory_1();
+        if (userStory_1.searchMagnificationBtn.isEnabled()) {
+            userStory_1.searchMagnificationBtn.click();
+        }
+        //userStory_1.searchMagnificationBtn.click();
+
+        BrowserUtils.wait(5);
+
+        userStory_1.filterBtn.click();
+
+        BrowserUtils.waitForVisibility(userStory_1.draft_btn, 10).click();
+        BrowserUtils.wait(5);
+
+        for (int i = 1; i <= 9; i++) {
+
+            String actual_result = Driver.getDriver().findElement(By.xpath(userStory_1.verifyStatus(i))).getText();
+            assertEquals(actual_result, "Draft");
+        }
+
+
+    }
 }
