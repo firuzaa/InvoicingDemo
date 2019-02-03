@@ -37,6 +37,7 @@ public class UserStory_1_Test extends TestBase {
             userStory_1.searchMagnificationBtn.click();
         }
         //userStory_1.searchMagnificationBtn.click();
+
         BrowserUtils.wait(5);
 
         userStory_1.filterBtn.click();
