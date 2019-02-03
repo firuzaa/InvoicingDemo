@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="575a1414-231d-4bea-9ca5-1501baf1fa58" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/UserStory_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/UserStory_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/UserStory_1_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/UserStory_1_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/pages/LogInPage.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/utilities/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/utilities/TestBase.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/UserStory_1_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="39" column="11" lean-forward="true" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+            <state relative-caret-position="301">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -289,7 +286,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549157760266" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549158183342" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -456,19 +453,17 @@
       <option name="project" value="LOCAL" />
       <updated>1549061706720</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added first user story 2nd @Test">
+      <created>1549157829702</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1549157829702</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserStory_1_Test_openOption - 2019.02.01 at 18h 29m 15s.xml">
-      <configuration name="UserStory_1_Test.openOption" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="UserStory_1_Test_openOption - 2019.02.01 at 18h 30m 17s.xml">
-      <configuration name="UserStory_1_Test.openOption" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="UserStory_1_Test_openOption - 2019.02.01 at 18h 32m 35s.xml">
-      <configuration name="UserStory_1_Test.openOption" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="UserStory_1_Test_openOption - 2019.02.01 at 18h 34m 10s.xml">
       <configuration name="UserStory_1_Test.openOption" configurationId="TestNG" />
     </history-entry>
@@ -490,10 +485,18 @@
     <history-entry file="UserStory_1_Test_openOption - 2019.02.02 at 18h 54m 36s.xml">
       <configuration name="UserStory_1_Test.openOption" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="UserStory_1_Test_openOption - 2019.02.02 at 20h 34m 04s.xml">
+      <configuration name="UserStory_1_Test.openOption" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="UserStory_1_Test_openOption - 2019.02.02 at 20h 35m 14s.xml">
+      <configuration name="UserStory_1_Test.openOption" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="UserStory_1_Test_openOption - 2019.02.02 at 20h 36m 22s.xml">
+      <configuration name="UserStory_1_Test.openOption" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24313408" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -504,7 +507,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.15616438" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16986302" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -525,7 +528,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added first user story" />
-    <option name="LAST_COMMIT_MESSAGE" value="added first user story" />
+    <MESSAGE value="added first user story 2nd @Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="added first user story 2nd @Test" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -742,8 +746,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/UserStory_1_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="39" column="11" lean-forward="true" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+        <state relative-caret-position="301">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
