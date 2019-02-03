@@ -75,9 +75,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1366" />
+    <option name="height" value="680" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -179,7 +180,7 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG./Users/feruzaabduwayit/Downloads/InvoicingDemo/smokeTest_Runner.xml">
-    <configuration name="UserStory_1_Test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UserStory_1_Test" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="InvoicingDemo" />
       <extension name="coverage">
         <pattern>
@@ -195,7 +196,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserStory_1_Test.filter_1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UserStory_1_Test.filter_1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="InvoicingDemo" />
       <extension name="coverage">
         <pattern>
@@ -213,7 +214,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserStory_1_Test.openOption" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UserStory_1_Test.openOption" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="InvoicingDemo" />
       <extension name="coverage">
         <pattern>
@@ -231,7 +232,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserStory_1_Test.verifyDraftOption" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UserStory_1_Test.verifyDraftOption" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="InvoicingDemo" />
       <extension name="coverage">
         <pattern>
@@ -249,7 +250,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/feruzaabduwayit/Downloads/InvoicingDemo/smokeTest_Runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/feruzaabduwayit/Downloads/InvoicingDemo/smokeTest_Runner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="InvoicingDemo" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/smokeTest_Runner.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
@@ -259,6 +260,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="TestNG./Users/feruzaabduwayit/Downloads/InvoicingDemo/smokeTest_Runner.xml" />
+      <item itemvalue="TestNG.UserStory_1_Test" />
+      <item itemvalue="TestNG.UserStory_1_Test.filter_1" />
+      <item itemvalue="TestNG.UserStory_1_Test.openOption" />
+      <item itemvalue="TestNG.UserStory_1_Test.verifyDraftOption" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG./Users/feruzaabduwayit/Downloads/InvoicingDemo/smokeTest_Runner.xml" />
