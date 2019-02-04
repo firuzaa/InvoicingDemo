@@ -22,7 +22,7 @@ public class UserStory_1_Test extends TestBase {
         if (userStory_1.searchMagnificationBtn.isEnabled()) {
             userStory_1.searchMagnificationBtn.click();
         }
-
+        BrowserUtils.wait(3);
         userStory_1.filterBtn.click();
 
         assertTrue(userStory_1.draft_btn.isDisplayed());

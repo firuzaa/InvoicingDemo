@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class Login extends TestBase {
 
-    @Test(groups = "regression")
+    @Test(alwaysRun = true)
     public void testName() {
 
         LogInPage logInPage = new LogInPage();
