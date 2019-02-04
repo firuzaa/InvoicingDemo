@@ -20,7 +20,8 @@ public abstract class TestBase {
 
         driver = Driver.getDriver(); //using this no one can create object
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(15,TimeUnit.SECONDS);
         actions = new Actions(driver);
         softAssert = new SoftAssert();
 

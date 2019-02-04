@@ -22,7 +22,7 @@ public class UserStory_1_Test extends TestBase {
         if (userStory_1.searchMagnificationBtn.isEnabled()) {
             userStory_1.searchMagnificationBtn.click();
         }
-        BrowserUtils.wait(3);
+        BrowserUtils.wait(5);
         userStory_1.filterBtn.click();
 
         assertTrue(userStory_1.draft_btn.isDisplayed());
@@ -70,7 +70,7 @@ public class UserStory_1_Test extends TestBase {
         BrowserUtils.waitForVisibility(userStory_1.draft_btn, 10).click();
         BrowserUtils.wait(5);
 
-        for (int i = 1; i <= 9; i++) {
+        for (int i = 1; i <= 2; i++) {
 
             String actual_result = Driver.getDriver().findElement(By.xpath(userStory_1.verifyStatus(i))).getText();
             assertEquals(actual_result, "Draft");

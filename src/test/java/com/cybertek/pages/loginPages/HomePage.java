@@ -12,11 +12,8 @@ public class HomePage extends TestBase {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
-
     public @FindBy(xpath = "//span[@class='oe_menu_text'][contains(text(),'Invoicing')]")
     WebElement invoicingBtn;
-
-
 
     public void invoicing(){
 

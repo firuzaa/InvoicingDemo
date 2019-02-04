@@ -1,6 +1,7 @@
 package com.cybertek.tests;
 
 import com.cybertek.pages.UserStory_8;
+import com.cybertek.utilities.BrowserUtils;
 import com.cybertek.utilities.TestBase;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -19,7 +20,7 @@ public class UserStory_8_Test extends TestBase {
         userStory_8 = new UserStory_8();
 
         userStory_8.MasterData.click();
-        Thread.sleep(5000);
+        BrowserUtils.wait(5);
         Assert.assertTrue(userStory_8.MasterDataOptions.isDisplayed());
 
 
