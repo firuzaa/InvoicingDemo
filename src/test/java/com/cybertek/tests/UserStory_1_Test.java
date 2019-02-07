@@ -24,7 +24,7 @@ public class UserStory_1_Test extends TestBase {
         assertTrue(userStory_1.draft_btn.isDisplayed());
         assertTrue(userStory_1.open_btn.isDisplayed());
 
-        //Little chaange
+
 
     }
 
