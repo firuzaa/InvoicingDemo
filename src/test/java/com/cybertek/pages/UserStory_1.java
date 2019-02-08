@@ -20,7 +20,7 @@ public class UserStory_1 {
     public WebElement filterBtn;
 
     @FindBy(xpath = "//span[contains(text(),'Customer Invoices')]")
-    public  WebElement customer_Invoices_btn;
+    public WebElement customer_Invoices_btn;
 
     @FindBy(xpath = "//li[@data-index='0']//a[@href='#'][contains(text(),'Draft')]")
     public WebElement draft_btn;
@@ -32,11 +32,8 @@ public class UserStory_1 {
 
         String xpth = "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody/tr[" + row + "]/td[10]";
 
-
         return xpth;
     }
-
-
 
 
 }

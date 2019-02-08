@@ -2,10 +2,11 @@ package com.cybertek.tests;
 
 import com.cybertek.pages.UserStory_5;
 import com.cybertek.utilities.BrowserUtils;
+import com.cybertek.utilities.TestBase;
 import org.openqa.selenium.Keys;
 import org.testng.annotations.Test;
 
-public class UserStory_5_Test {
+public class UserStory_5_Test extends TestBase {
     public UserStory_5 userStory_5;
 
     @Test
