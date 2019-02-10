@@ -22,8 +22,8 @@ public class UserStory_7 {
     @FindBy(xpath = "/html/body/div[1]/div[2]/div[1]/div[2]/div[2]/div/div[2]/button")
     public  WebElement Action;
 
-    @FindBy(xpath = "/html/body/div[1]/div[2]/div[1]/div[3]/div[1]/div[3]/button")
-    public  WebElement Favorites;
     @FindBy(xpath = "/html/body/div[1]/div[2]/div[1]/div[2]/div[2]/div/div[2]/ul/li[2]/a")
     public  WebElement Delete;
+
+
 }
